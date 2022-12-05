@@ -296,7 +296,7 @@ function escreve_letras(){
 		teclado = teclados[i];
 		for (let j=0; j < teclado.children.length; j++){
 			teclado.children[j].children[1].innerHTML += '<p>' + desassocia.get(teclado.children[j].id) + '</p>'
-			teclado.children[j].children[1].style.fontSize = "30px";
+			teclado.children[j].children[1].style.fontSize = "10px";
 			teclado.children[j].children[1].style.textAlign = "center";
 		}
 	}
