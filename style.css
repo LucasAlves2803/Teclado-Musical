@@ -88,6 +88,7 @@
 
 #re,#sol,#la,#re2,#re3,#sol2,#sol3,#la2,#la3{
 	flex: 1;
+	height:80%;
 	display: grid;
 	background-color: Ivory;
 	border: 1px solid black;
@@ -104,6 +105,7 @@
 
 #fa,#do,#do2,#si,#mi2,#mi3,#si2,#si3,#mi,#do3,#fa2,#fa3{
 	flex: 1;
+	height:80%;
 	background-color: Ivory;
 	border: 1px solid black;
 	display: grid;	
@@ -131,6 +133,6 @@
 	position:absolute;
 	border: 1px solid black;
 	width: 1%;
-	height:23%;
+	height:18%;
 	background-color: black;
 }
