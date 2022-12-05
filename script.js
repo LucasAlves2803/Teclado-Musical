@@ -284,7 +284,7 @@ function letra_preta(){
 	keyS = ['do#','re#','fa#','sol#','la#'];
 	for (let i=0; i < teclas_pt.length; i++){
 	    teclas_pt[i].innerHTML += "<div class='notas_pt'>" + desassocia.get(teclas_pt[i].classList.value).toUpperCase() + "</div>";
-		teclas_pt[i].style.fontSize = "20px";
+		teclas_pt[i].style.fontSize = "15px";
 		teclas_pt[i].style.color = "white";
 	}
 	
@@ -296,7 +296,7 @@ function escreve_letras(){
 		teclado = teclados[i];
 		for (let j=0; j < teclado.children.length; j++){
 			teclado.children[j].children[1].innerHTML += '<p>' + desassocia.get(teclado.children[j].id) + '</p>'
-			teclado.children[j].children[1].style.fontSize = "10px";
+			teclado.children[j].children[1].style.fontSize = "30px";
 			teclado.children[j].children[1].style.textAlign = "center";
 		}
 	}
